@@ -1,0 +1,76 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    background: -webkit-linear-gradient(to bottom, #AEE7F3, #2DD2F3, #024A59);
+    background: linear-gradient(to bottom, #AEE7F3, #2DD2F3, #024A59);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 1em;
+    font-size: 42px;
+}
+
+.todo_wrapper {
+    width: 25%;
+    min-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+input {
+    width: 60%;
+    height: 50px;
+    border-radius: 5em;
+    border: 1em white;
+}
+
+input::placeholder {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.add_task {
+    width: 30%;
+    font-size: 20px;
+    background: rgba(255, 0, 0, 0.74);
+    border-radius: 2em;
+}
+
+.add_task:hover {
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+button {
+    width: 30%;
+    font-size: 20px;
+    border-radius: 2em;
+    background: rgb(223, 238, 16);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+li {
+    font-size: 18px;
+    width: 60%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.checked {
+    text-decoration: line-through;
+    font-size: 18px;
+    width: 60%;
+    font-style: italic;
+    font-weight: bold;
+}
